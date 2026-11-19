@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h2>Library</h2>
+            <button id="newBookBtn">Add Book</button>
+        </header>
+
+        <dialog id="bookModal">
+            <form id="bookForm">
+                <h2>Add New Book</h2>
+
+                <label>Title: <input type="text" id="title" required></label>
+                <label>Author: <input type="text" id="author" required></label>
+                <label>Pages: <input type="number" id="pages" min="1" required></label>
+                <label class="checkbox-label">Read: <input type="checkbox" id="isRead"></label>
+
+                <div class="form-buttons">
+                    <button type="button" id="cancelBtn">Cancel</button>
+                    <button type="submit">Add</button>
+                </div>
+            </form>
+        </dialog>
+
+        <main id="library">
+
+
+
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
